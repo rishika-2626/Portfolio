@@ -6,11 +6,44 @@ function Navbar(){
       </h1>
 
       <ul className="flex gap-8 text-gray-700">
-        <li className="cursor-pointer hover:text-black">Work</li>
-        <li className="cursor-pointer hover:text-black">About</li>
-        <li className="cursor-pointer hover:text-black">Skills</li>
-        <li className="cursor-pointer hover:text-black">Contact</li>
-      </ul>
+
+  <li>
+    <a
+      href="#work"
+      className="hover:text-black transition"
+    >
+      Work
+    </a>
+  </li>
+
+  <li>
+    <a
+      href="#about"
+      className="hover:text-black transition"
+    >
+      About
+    </a>
+  </li>
+
+  <li>
+    <a
+      href="#skills"
+      className="hover:text-black transition"
+    >
+      Skills
+    </a>
+  </li>
+
+  <li>
+    <a
+      href="#contact"
+      className="hover:text-black transition"
+    >
+      Contact
+    </a>
+  </li>
+
+</ul>
         </nav>
     )
 }

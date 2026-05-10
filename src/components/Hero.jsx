@@ -2,7 +2,7 @@ import heroImage from '../assets/hero.png'
 
 function Hero() {
   return (
-    <section className="min-h-screen bg-[#f8f7f4] flex items-center px-8 md:px-16">
+    <section className="min-h-[85vh] bg-[#f8f7f4] flex items-center px-8 md:px-16">
       
       <div className="max-w-7xl mx-auto w-full flex flex-col md:flex-row items-center justify-between gap-16">
         
